@@ -1,0 +1,170 @@
+/* COMMON */
+#root {
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 1650px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.inner {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #f6f5f0;
+  border-bottom: 1px solid #c8c8c8;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 200px;
+  z-index: 2;
+}
+
+/* Header */
+
+header .header__contents {
+  font-size: 50px;
+  width: 60%;
+  height: 200px;
+  position: absolute;
+  right: 25%;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+header .header__contents .header__contents__detail {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header__contents .header__contents__detail::before {
+}
+
+header .btnOutline {
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+.hamburger {
+  font-size: 75px;
+  cursor: grab;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+}
+
+.close {
+  font-size: 75px;
+  cursor: grab;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+}
+
+#menuClBtn {
+  font-size: 75px;
+  width: 150px;
+  cursor: grab;
+  height: 75px;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+/* MENU */
+
+.project-menu {
+  margin-top: 0;
+  padding-left: 0;
+  height: 100%;
+  width: 350px;
+  background-color: #f6f5f0;
+  z-index: 3;
+  position: fixed;
+  font-size: 25px;
+  line-height: 1.5;
+  left: 0;
+  display: none;
+  top: 0;
+  text-align: left;
+}
+
+.project-menu .menu__contents .menu__ul .menu {
+  font-size: 45px;
+  padding-top: 5px;
+}
+
+.project-menu .menu__contents .menu__ul .menu__li {
+  padding: 35px 0;
+  font-size: 25px;
+}
+
+.project-menu .menu__contents .menu__ul .menu__li:hover {
+  font-weight: 700;
+}
+
+.menuBtn__outline {
+  height: 140px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 250px;
+  font-size: 25px;
+  color: #706e68;
+  background-color: #222;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+  display: flex;
+  left: 0;
+}
+
+.footer .useAPI {
+  margin-top: 15px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .GitHub {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
